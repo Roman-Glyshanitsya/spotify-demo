@@ -1,0 +1,77 @@
+.register__setion {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 175px;
+
+    background-color: #F2F2F2;
+}
+
+.register__page__logo {
+    margin-bottom: 55px;
+}
+
+.register__page__title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    text-transform: capitalize;
+    color: #383838;
+    margin-bottom: 21px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.register__page__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    text-align: center;
+    color: #797979;
+    margin-bottom: 30px;
+
+    position: relative;
+    z-index: 1;
+}
+
+.register__buttons__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+    z-index: 1;
+
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.register__button {
+    background-color: #42C83C;
+    color: #FFFFFF;
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.04);
+    border-radius: 30px;
+    border: none;
+    padding: 24px 40px;
+}
+
+.signin__button {
+    border: none;
+    padding: 24px 40px;
+    border-radius: 30px;
+    background-color: transparent;
+}
+
+.register-bcg-image {
+    background-image: url('../../img/register-page-img.png');
+    position: absolute;
+    width: 332.07px;
+    height: 453.73px;
+    left: 0;
+    bottom: 0;
+}
