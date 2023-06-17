@@ -1,0 +1,50 @@
+.second__page__img {
+    background-image: url('../../img/second-page-bcg-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mode__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #DADADA;
+    margin-bottom: 32px;
+}
+
+.icons__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+.icon-bcg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 73px;
+    height: 73px;
+
+    background: rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(43.5px);
+    border-radius: 50%;
+
+    margin-bottom: 17px;
+}
+
+.mode__icon {
+    width: 36px;
+    height: 36px;
+}
+
+.mode__text {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 23px;
+    text-transform: capitalize; 
+    color: #DADADA;
+}
+

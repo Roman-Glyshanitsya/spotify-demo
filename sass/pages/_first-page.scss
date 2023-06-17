@@ -1,0 +1,36 @@
+.first__page__img {
+    background-image: url('../../img/first-page-bcg-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.page__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;    
+    text-transform: capitalize;
+    color: #DADADA;
+    margin-bottom: 20px;
+}
+
+.page__text {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 23px;
+    color: #797979;
+    margin-bottom: 37px;
+}
+
+.page__button {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #F6F6F6;
+
+    border-radius: 30px;
+    background-color: #42C83C;
+    padding: 31px 105px;
+
+    margin-bottom: 70px;
+}

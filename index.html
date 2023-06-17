@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <!-- loading page -->
+    <div class="container container--light loading__logo">
+      <img src="./img/logo.png" alt="logo" width="196" />
+    </div>
+
+    <!-- first page -->
+    <div class="container section first__page__img">
+      <img
+        class="first__page__logo"
+        src="./img/logo.png"
+        alt="logo"
+        width="196"
+      />
+      <div>
+        <h1 class="page__title">Enjoy listening to music</h1>
+        <p class="page__text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis enim
+          purus sed phasellus. Cursus ornare id scelerisque aliquam.
+        </p>
+        <button class="page__button">Get started</button>
+      </div>
+    </div>
+
+    <!-- second page -->
+    <div class="container section second__page__img">
+      <img
+        class="first__page__logo"
+        src="./img/logo.png"
+        alt="logo"
+        width="196"
+      />
+      <div>
+        <p class="mode__title">Choose mode</p>
+        <div class="icons__container">
+          <div>
+            <div class="icon-bcg">
+              <svg class="mode__icon">
+                <use href="./img/symbol-defs.svg#icon-moon"></use>
+              </svg>
+            </div>
+            <p class="mode__text">Dark mode</p>
+          </div>
+          <div>
+            <div class="icon-bcg">
+              <svg class="mode__icon">
+                <use href="./img/symbol-defs.svg#icon-sun"></use>
+              </svg>
+            </div>
+            <p class="mode__text">Light mode</p>
+          </div>
+        </div>
+        <button class="page__button">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
