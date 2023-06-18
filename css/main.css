@@ -65,7 +65,7 @@ body {
 }
 
 .first__page__img {
-  background-image: url("../../img/first-page-bcg-image.jpg");
+  background-image: url("../img/first-page-bcg-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 .second__page__img {
-  background-image: url("../../img/second-page-bcg-image.png");
+  background-image: url("../img/second-page-bcg-image.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -213,7 +213,7 @@ body {
 }
 
 .register-bcg-image {
-  background-image: url("../../img/register-page-img.png");
+  background-image: url("../img/register-page-img.png");
   position: absolute;
   width: 332.07px;
   height: 453.73px;
